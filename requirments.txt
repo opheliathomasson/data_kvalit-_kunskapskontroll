@@ -1,5 +1,5 @@
-pandas 
-numpy 
+pandas
+numpy
 matplotlib
 
 ipykernel
@@ -8,9 +8,8 @@ python-dotenv
 langchain
 langchain-community
 langchain-chroma
-sentence-transformers
-
-
 langchain-google-genai
-langchain-chroma
-hugging
+langchain-huggingface
+langchain-text-splitters
+
+sentence-transformers
