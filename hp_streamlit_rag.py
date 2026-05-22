@@ -4,13 +4,50 @@ from rag.load_vector_db import load_vector_store
 from rag.retriever import retrieve_context
 from rag.prompt import generate_answer
 
-
 st.set_page_config(
     page_title="The Wise Wizard",
-    page_icon="🧙‍♂️"
+    page_icon="🧙‍♂️",
+    layout="wide"
 )
 
-st.title("🧙‍♂️ The Wise Wizard's Library ✨")
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #170608 0%, #5b0d16 45%, #9b1c2b 100%);
+    color: #f8e8b0;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #070707;
+}
+
+h1, h2, h3 {
+    color: #f8d36b;
+    font-family: Georgia, serif;
+}
+
+.stChatMessage {
+    background-color: rgba(20, 0, 5, 0.55);
+    border: 1px solid rgba(248, 211, 107, 0.25);
+    border-radius: 18px;
+    padding: 12px;
+}
+
+[data-testid="stChatInput"] {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.stButton button {
+    background-color: #7b1320;
+    color: #f8e8b0;
+    border: 1px solid #f8d36b;
+    border-radius: 12px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+st.title("⚡ The Wise Wizard's Archive")
 
 st.write(
     "Ask questions about the wizarding world.\n\n"
