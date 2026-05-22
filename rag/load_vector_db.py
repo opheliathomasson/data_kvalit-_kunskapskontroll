@@ -10,7 +10,7 @@ def load_vector_store():
     # Create the vector store using the Chroma class from langchain_chroma, and specify the persist directory for the database.
     vector_store = Chroma(
         collection_name="harry_potter_hf",
-        persist_directory="./chroma_harry_potter_test_db",
+        persist_directory="./chroma_harry_potter_many_db",
         embedding_function=embeddings
     ) 
 
