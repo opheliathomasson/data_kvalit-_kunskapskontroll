@@ -1,4 +1,13 @@
-ipykernel
-pandas 
-numpy 
+pandas
+numpy
 matplotlib
+ipykernel
+python-dotenv
+
+langchain
+langchain-community
+langchain-chroma
+langchain-google-genai
+
+sentence-transformers
+huggingface-hub
