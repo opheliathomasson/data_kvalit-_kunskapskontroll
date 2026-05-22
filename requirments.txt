@@ -1,13 +1,14 @@
-pandas
-numpy
-matplotlib
-ipykernel
+streamlit
 python-dotenv
 
 langchain
 langchain-community
 langchain-chroma
 langchain-google-genai
+langchain-huggingface
+langchain-text-splitters
 
 sentence-transformers
-huggingface-hub
+pandas
+numpy
+matplotlib
