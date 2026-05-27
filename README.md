@@ -7,7 +7,7 @@ Streamlit koden är byggd på att notebooken är körd och en databas är skapad
 
 ## 📁 Projektstruktur
 
-* **data/** – Innehåller rådata och källmaterial; alltså csv filerna.
+* **data/** – Innehåller rådata och källmaterial; alltså csv filerna både dem städade och orginal filerna.
 * **rag/** – Moduler för vektorladdning, embeddings och söklogik.
 * **data_cleaning_2.ipynb** – Jupyter Notebook för preprocessing och rensning av textdata.
 * **hp_rag_txt_final_v2.ipynb** – Experimentering och validering av RAG-pipelinen.
