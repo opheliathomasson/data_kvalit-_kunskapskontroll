@@ -1,6 +1,9 @@
 streamlit
 python-dotenv
 
+ipykernel
+jupyter
+
 langchain
 langchain-community
 langchain-chroma
