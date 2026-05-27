@@ -20,7 +20,7 @@ Streamlit koden är byggd på att notebooken är körd och en databas är skapad
 Säkerställ att du har installerat alla nödvändiga bibliotek innan du startar applikationen:
 
 ```bash
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 ### **2. Ladda ner Harry Potter-böckerna**
 Hämta böckerna från t.ex. Kaggle och lägg in dem i data-mappen. 
