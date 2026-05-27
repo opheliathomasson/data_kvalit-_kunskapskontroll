@@ -12,7 +12,7 @@ Streamlit koden är byggd på att notebooken är körd och en databas är skapad
 * **data_cleaning_2.ipynb** – Jupyter Notebook för preprocessing och rensning av textdata.
 * **hp_rag_txt_final_v2.ipynb** – Experimentering och validering av RAG-pipelinen.
 * **hp_streamlit_rag.py** – Huvudapplikationen för Streamlit-gränssnittet.
-* **requirments.txt** – Lista över projektets Python-dependencies.
+* **requirements.txt** – Lista över projektets Python-dependencies.
 
 ## 🚀 Kom igång
 
